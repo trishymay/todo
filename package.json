@@ -1,0 +1,35 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "description": "mean stack to do list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trishymay/todo.git"
+  },
+  "author": "Tricia Buckenberger <tbuckenberger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trishymay/todo/issues"
+  },
+  "homepage": "https://github.com/trishymay/todo#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.4.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "mocha": "^2.4.5"
+  }
+}
